@@ -1,0 +1,98 @@
+body {
+  width: 100%;
+  height: auto;
+  font-family: 'Lato', sans-serif;
+}
+
+.tech-image {
+  width: 100%;
+  height: auto;
+}
+
+.tech-image img {
+  width: 100%;
+  padding: 12px;
+}
+
+.my-stack li {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  column-gap: 12px;
+  font-size: 19px;
+  color: whitesmoke;
+}
+
+.left-card h2 {
+  text-align: center;
+  margin: 12px;
+  font-size: 33px;
+  padding-left: 0;
+  color: whitesmoke;
+}
+
+@media (min-width: 1024px) {
+  .item {
+    background-color: rgb(10, 78, 55);
+    color: beige;
+    padding: 5px 12px;
+    text-decoration: none;
+    margin: auto 5px;
+  }
+
+  .item:hover {
+    color: orangered;
+    font-size: 29px;
+  }
+
+  .first-Container {
+    width: 100%;
+    height: auto;
+    background-image: url("../assets/back2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 33px;
+    align-items: center;
+    align-content: center;
+    padding: 30px;
+  }
+
+  .first-Card {
+    height: auto;
+    list-style: none;
+  }
+
+  .left-card h2 {
+    text-align: start;
+  }
+
+  .tech-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .tech-image img {
+    width: 80%;
+  }
+
+  .my-stack {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    list-style: none;
+    text-align: center;
+  }
+
+  .my-stack > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}

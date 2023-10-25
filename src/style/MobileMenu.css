@@ -1,0 +1,89 @@
+.nav-container {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  list-style: none;
+  background-color: rgba(255, 228, 196, 0.801);
+  position: relative;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.Space-logo :hover {
+  box-shadow: 0 0 0 16px rgb(26, 3, 3);
+  color: rgba(180, 35, 35, 0.719);
+}
+
+.mobile-menu-icon {
+  display: none;
+  margin-left: 80%;
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  background-color: #333;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-menu.open {
+  display: flex;
+  height: 100vh;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: #fff;
+  margin: 10px;
+}
+
+.mobile-item {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .mobile-item {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    z-index: 2;
+  }
+
+  .logo {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .nav-bar {
+    display: flex;
+    font-size: 22px;
+    font-weight: 700;
+  }
+}

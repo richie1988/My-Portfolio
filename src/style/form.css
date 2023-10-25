@@ -1,0 +1,141 @@
+.form-container {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  background-image: url("../assets/back1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 24px;
+}
+
+.intouch-container {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 12px;
+  flex-direction: column;
+}
+
+.intouch-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 9px 16px;
+  font-size: 19px;
+}
+
+.intouch-container button {
+  height: auto;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 20px;
+  background-color: rgb(240, 62, 115);
+  cursor: pointer;
+}
+
+.comment-container {
+  width: 100%;
+  margin: auto;
+  align-items: center;
+}
+
+.comment-container input {
+  width: 100%;
+  margin: 6px;
+  padding: 12px 30px;
+  font-size: 19px;
+}
+
+.comment-container button {
+  width: 140px;
+  height: auto;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 20px;
+  background-color: rgb(240, 62, 115);
+  cursor: pointer;
+}
+
+.comment-box {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-overflow: inherit;
+  padding: 16px;
+  background-color: rgb(241, 247, 247);
+}
+
+.comment-box h2 {
+  color: rgb(0, 0, 0);
+}
+
+.form-h2 {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0.9px;
+  color: whitesmoke;
+  text-align: center;
+  margin: 22px auto;
+}
+
+.form-container button:hover {
+  background-color: orangered;
+  color: whitesmoke;
+}
+
+.alert {
+  font-size: 24px;
+  font-weight: 500;
+  color: red;
+}
+
+.comment-box ul li {
+  font-family: 'Roboto', sans-serif;
+  background-color: bisque;
+  padding: 10px;
+  font-size: 19px;
+  font-weight: 400;
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .intouch-container button {
+    width: 320px;
+    display: flex;
+  }
+
+  .intouch-container {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .comment-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+  }
+
+  .form-h2 {
+    text-align: center;
+    width: 40%;
+    height: auto;
+  }
+
+  .form-container {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+  }
+
+  .comment-container input {
+    width: 100%;
+    margin: 5px 10px;
+  }
+}

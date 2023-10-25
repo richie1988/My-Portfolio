@@ -1,0 +1,44 @@
+.programing-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 39px auto;
+  padding: 16px;
+  flex-direction: column;
+  color: rgb(245, 245, 245);
+  background-color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.heading h1 {
+  padding-left: 16px;
+}
+
+.programing-card {
+  width: 100%;
+  height: 400px;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 12px;
+}
+
+.programing-card li {
+  margin-top: 19px;
+  list-style-type: none;
+}
+
+@media only  screen and (min-width: 768px) {
+  .programing-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
