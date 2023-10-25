@@ -70,8 +70,10 @@
   background-color: rgb(241, 247, 247);
 }
 
-.comment-box h2 {
-  color: rgb(0, 0, 0);
+.comment-h2 {
+  color: rgb(252, 252, 252);
+  font-size: 30px;
+  padding: 40px 0;
 }
 
 .form-h2 {

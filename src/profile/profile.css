@@ -96,6 +96,7 @@
   padding: 12px;
   margin: auto;
   border-radius: 9px;
+  justify-content: center;
 }
 
 .social_media > li img {

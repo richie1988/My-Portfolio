@@ -113,12 +113,12 @@
   }
 
   .main-container h2::before {
-    left: -1px;
-    transform: translateX(-100%);
+    left: 1rem;
+    transform: translateX(100%);
   }
 
   .main-container h2::after {
-    left: -3px;
-    transform: translateX(5%);
+    left: 42rem;
+    transform: translateX(100%);
   }
 }

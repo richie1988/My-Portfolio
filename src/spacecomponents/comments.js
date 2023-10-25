@@ -43,7 +43,7 @@ function CommentBox() {
           Comment
         </button>
       </div>
-      <h2>Comments</h2>
+      <h3 className="comment-h2">Comments</h3>
       <div className="comment-box">
         <ul>
           {comments.map((comment) => (
