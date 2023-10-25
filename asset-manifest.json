@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/My-Space/static/css/main.6f88252a.css",
+    "main.js": "/My-Space/static/js/main.c97fa434.js",
+    "static/js/787.6b56a02e.chunk.js": "/My-Space/static/js/787.6b56a02e.chunk.js",
+    "static/media/back2.jpg": "/My-Space/static/media/back2.fea032a9d5c80da27af0.jpg",
+    "static/media/myself.jpg": "/My-Space/static/media/myself.dcd4ac460fb992b8ac1d.jpg",
+    "static/media/space-hub.png": "/My-Space/static/media/space-hub.3af1159d3e31e26bbb2b.png",
+    "static/media/back1.jpg": "/My-Space/static/media/back1.45eccb3ed6023a72217f.jpg",
+    "static/media/space image.png": "/My-Space/static/media/space image.7dd037cfefd5c2fd3cbb.png",
+    "static/media/mario-info.png": "/My-Space/static/media/mario-info.86cfc31ce4c6a19aa2db.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/My-Space/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/microverse.png": "/My-Space/static/media/microverse.60ef5679be1308198996.png",
+    "static/media/RIYI-Movies.png": "/My-Space/static/media/RIYI-Movies.ebd762f96d24acc67a62.png",
+    "static/media/back4.jpg": "/My-Space/static/media/back4.8a4eacf3b5a15e0fb2c4.jpg",
+    "static/media/RISHÜ -logos.jpeg": "/My-Space/static/media/RISHÜ -logos.f9b30bf4c27ebb7054e4.jpeg",
+    "static/media/fontawesome-webfont.eot": "/My-Space/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/My-Space/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/My-Space/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/My-Space/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/leaderbord.png": "/My-Space/static/media/leaderbord.2d10d54389abf2c7ef4e.png",
+    "static/media/calculator.png": "/My-Space/static/media/calculator.e26212c02d9a8ab760d2.png",
+    "static/media/github.svg": "/My-Space/static/media/github.0d16bbd8789480c9029f14a33015c3d2.svg",
+    "static/media/instagram.svg": "/My-Space/static/media/instagram.fe88c6b3ab33ebe001de111c091510e9.svg",
+    "index.html": "/My-Space/index.html",
+    "static/media/twitter.svg": "/My-Space/static/media/twitter.021d91863d23284bfd754ab603a9720d.svg",
+    "static/media/facebook.svg": "/My-Space/static/media/facebook.ae1500a7c5f300ebfb8a05225acaebd7.svg",
+    "main.6f88252a.css.map": "/My-Space/static/css/main.6f88252a.css.map",
+    "main.c97fa434.js.map": "/My-Space/static/js/main.c97fa434.js.map",
+    "787.6b56a02e.chunk.js.map": "/My-Space/static/js/787.6b56a02e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f88252a.css",
+    "static/js/main.c97fa434.js"
+  ]
+}
