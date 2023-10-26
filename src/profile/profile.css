@@ -104,7 +104,7 @@
 }
 
 .About-section {
-  padding: 16px;
+  padding: 12px;
   text-align: center;
 }
 
@@ -112,7 +112,7 @@
   padding-top: 30px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .container {
     width: 50%;
     display: flex;
@@ -124,8 +124,8 @@
   }
 
   .About-section {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 400;
   }
 
   .link_section :nth-child(2) {
