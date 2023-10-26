@@ -9,7 +9,6 @@ import '../style/MobileMenu.css';
 import HomePage from './SpaceHome';
 import ContactPage from './Contact';
 import ProjectPage from './Projects';
-import 'font-awesome/css/font-awesome.min.css';
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);

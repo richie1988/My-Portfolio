@@ -6,7 +6,6 @@ import asset2 from '../assets/leaderbord.png';
 import asset3 from '../assets/mario-info.png';
 import asset4 from '../assets/calculator.png';
 import asset5 from '../assets/RIYI-Movies.png';
-import 'font-awesome/css/font-awesome.min.css';
 
 function Project() {
   const projects = [
