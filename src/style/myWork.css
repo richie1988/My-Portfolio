@@ -112,7 +112,7 @@
     width: 20%;
   }
 
-  .main-container h2::before {
+/*   .main-container h2::before {
     left: 1rem;
     transform: translateX(100%);
   }
@@ -120,5 +120,5 @@
   .main-container h2::after {
     left: 42rem;
     transform: translateX(100%);
-  }
+  } */
 }
