@@ -64,12 +64,12 @@ function Header() {
 
 function Space() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/My-Space">
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="Contact" element={<ContactPage />} />
-        <Route path="Project" element={<ProjectPage />} />
+        <Route path="/Contact" element={<ContactPage />} />
+        <Route path="/Project" element={<ProjectPage />} />
       </Routes>
     </BrowserRouter>
   );
