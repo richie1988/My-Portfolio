@@ -99,10 +99,13 @@
 .comment-box ul li {
   font-family: 'Roboto', sans-serif;
   background-color: bisque;
-  padding: 10px;
+  padding: 9px;
   font-size: 19px;
   font-weight: 400;
   list-style-type: none;
+  margin-bottom: 10px;
+  border: 1px solid rgb(219, 218, 218);
+  box-shadow: 0 0 0 6px rgba(222, 184, 135, 0.74);
 }
 
 @media only screen and (min-width: 768px) {
