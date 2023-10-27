@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Space/static/css/main.f2667407.css",
-    "main.js": "/My-Space/static/js/main.b2781b5a.js",
+    "main.css": "/My-Space/static/css/main.18b96e9d.css",
+    "main.js": "/My-Space/static/js/main.6e352de1.js",
     "static/js/787.6b56a02e.chunk.js": "/My-Space/static/js/787.6b56a02e.chunk.js",
     "static/media/back2.jpg": "/My-Space/static/media/back2.fea032a9d5c80da27af0.jpg",
     "static/media/myself.jpg": "/My-Space/static/media/myself.dcd4ac460fb992b8ac1d.jpg",
@@ -17,15 +17,15 @@
     "static/media/calculator.png": "/My-Space/static/media/calculator.e26212c02d9a8ab760d2.png",
     "static/media/github.svg": "/My-Space/static/media/github.0d16bbd8789480c9029f14a33015c3d2.svg",
     "static/media/instagram.svg": "/My-Space/static/media/instagram.fe88c6b3ab33ebe001de111c091510e9.svg",
-    "static/media/twitter.svg": "/My-Space/static/media/twitter.021d91863d23284bfd754ab603a9720d.svg",
     "index.html": "/My-Space/index.html",
+    "static/media/twitter.svg": "/My-Space/static/media/twitter.021d91863d23284bfd754ab603a9720d.svg",
     "static/media/facebook.svg": "/My-Space/static/media/facebook.ae1500a7c5f300ebfb8a05225acaebd7.svg",
-    "main.f2667407.css.map": "/My-Space/static/css/main.f2667407.css.map",
-    "main.b2781b5a.js.map": "/My-Space/static/js/main.b2781b5a.js.map",
+    "main.18b96e9d.css.map": "/My-Space/static/css/main.18b96e9d.css.map",
+    "main.6e352de1.js.map": "/My-Space/static/js/main.6e352de1.js.map",
     "787.6b56a02e.chunk.js.map": "/My-Space/static/js/787.6b56a02e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2667407.css",
-    "static/js/main.b2781b5a.js"
+    "static/css/main.18b96e9d.css",
+    "static/js/main.6e352de1.js"
   ]
 }
