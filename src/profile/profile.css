@@ -114,30 +114,34 @@
 
 @media (min-width: 768px) {
   .container {
-    width: 50%;
     display: flex;
     flex-direction: column;
     height: auto;
     align-content: center;
-    padding: 16px;
+    padding: 12px;
     margin: auto;
   }
 
   .About-section {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
+    letter-spacing: 1.5px;
   }
 
   .link_section :nth-child(2) {
     background: blue;
     color: wheat;
-    padding: 7px 12px;
-    font-size: 24px;
+    padding: 3px 12px;
+    font-size: 20px;
   }
 
   .resume {
     padding: 5px 12px;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
+  }
+
+  .social-container {
+    margin-top: -10px;
   }
 }

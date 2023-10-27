@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {
-  BrowserRouter, Routes, Route, Link,
+  BrowserRouter as Router, Routes, Route, Link,
 } from 'react-router-dom';
 import logo from '../assets/RISHÜ -logos.jpeg';
 import './Space.css';
@@ -30,6 +30,14 @@ function Header() {
           <img src={logo} className="logo" alt="logo" />
         </Link>
       </li>
+      <div className="particles">
+        <div className="particle" />
+        <div className="particle" />
+        <div className="particle" />
+        <div className="particle" />
+        <div className="particle" />
+        <div className="particle" />
+      </div>
       <nav className="nav-bar">
         <div
           className={`mobile-menu-icon ${menuOpen ? 'open' : ''}`}
@@ -63,14 +71,14 @@ function Header() {
 
 function Space() {
   return (
-    <BrowserRouter basename="/My-Space">
+    <Router basename="/My-Space">
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/Contact" element={<ContactPage />} />
         <Route path="/Project" element={<ProjectPage />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 

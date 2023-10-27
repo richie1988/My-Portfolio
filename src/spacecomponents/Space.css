@@ -65,13 +65,19 @@ body {
     list-style: none;
   }
 
-  .left-card h2 {
-    text-align: start;
-  }
-
   .tech-image {
     width: 100%;
     height: auto;
+  }
+
+  .left-card h2 {
+    width: 90%;
+    text-align: center;
+    margin: 12px;
+    font-size: 33px;
+    padding-left: 0;
+    color: whitesmoke;
+    animation: changeColor 6s linear infinite;
   }
 
   .tech-image img {
@@ -94,5 +100,23 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
+  }
+}
+
+@keyframes changeColor {
+  0% {
+    color: red;
+  }
+
+  33% {
+    color: purple;
+  }
+
+  66% {
+    color: pink;
+  }
+
+  100% {
+    color: orange;
   }
 }
