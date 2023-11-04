@@ -1,5 +1,5 @@
 import React from 'react';
-import Me from './myImages/myself.jpg';
+import Me from './myImages/profile (3).png';
 import Linkedin from './myImages/icons8-linkedin-48.png';
 
 function Introduction() {

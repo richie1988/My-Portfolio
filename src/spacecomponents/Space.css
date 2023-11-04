@@ -4,6 +4,10 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.my-Space {
+  width: 100%;
+  height: auto;
+}
 .tech-image {
   width: 100%;
   height: auto;
@@ -31,9 +35,46 @@ body {
   color: whitesmoke;
 }
 
+/* MobileMenu.css */
+.button-container {
+  width: 60px;
+  overflow: hidden;
+  margin-left: 20px;
+  border: 2px solid black;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.move-button {
+  background-color: #1b1b1b;
+  color: #272424;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  padding: 2px 5px;
+  border-radius: 30px;
+}
+
+.move-button.left {
+  transform: translateX(-60%);
+  color: #fdf9f9;
+  background-color: rgb(32, 32, 32);
+}
+
+.button-icon {
+  font-size: 10px;
+  width: 30px;
+  background-color: rgb(15, 15, 15);
+  border-radius: 30px;
+  padding: 3px;
+}
+
 @media (min-width: 1024px) {
   .item {
-    background-color: rgb(10, 78, 55);
+    background-color: rgb(248, 40, 92);
     color: beige;
     padding: 5px 12px;
     text-decoration: none;
@@ -41,14 +82,15 @@ body {
   }
 
   .item:hover {
-    color: orangered;
+    color: rgb(37, 37, 37);
     font-size: 29px;
+    background-color: rgb(255, 144, 8);
   }
 
   .first-Container {
     width: 100%;
     height: auto;
-    background-image: url("../assets/back2.jpg");
+    background-color: rgb(78, 76, 76);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

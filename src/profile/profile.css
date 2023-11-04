@@ -53,6 +53,7 @@
   border-radius: 12px;
   font-weight: 600;
   cursor: pointer;
+  border: none;
 }
 
 .resume a {
@@ -79,7 +80,7 @@
   text-decoration: none;
 }
 
-.link_section li a:hover {
+.link_section li:hover {
   background-color: white;
 }
 
@@ -92,15 +93,23 @@
   display: flex;
   list-style: none;
   column-gap: 20px;
-  background: rgb(202, 216, 216);
   padding: 12px;
   margin: auto;
   border-radius: 9px;
   justify-content: center;
+  margin-top: -2rem;
 }
 
 .social_media > li img {
-  width: 20px;
+  width: 33px;
+  border-radius: 50%;
+  border: 2px solid rgb(240, 62, 115);
+  padding: 3px;
+}
+
+.social_media > li img:hover {
+  width: 40px;
+  box-shadow: 2px 2px 4px 10px rgba(201, 10, 144, 0.774);
 }
 
 .About-section {

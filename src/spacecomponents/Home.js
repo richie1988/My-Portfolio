@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {
   BrowserRouter as Router, Routes, Route, Link,
 } from 'react-router-dom';
-import logo from '../assets/RISHÜ -logos.jpeg';
+import logo from '../assets/My-Logo.png';
 import './Space.css';
 import '../profile/profile.css';
 import '../style/MobileMenu.css';
@@ -12,9 +12,23 @@ import ProjectPage from './Projects';
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isButtonOnRight, setIsButtonOnRight] = useState(true);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+  };
+
+  const toggleButtonPosition = () => {
+    setIsButtonOnRight(!isButtonOnRight);
+
+    // Change background and text color when clicking the button
+    if (isButtonOnRight) {
+      document.body.style.backgroundColor = 'black';
+      document.body.style.color = 'white';
+    } else {
+      document.body.style.backgroundColor = 'white';
+      document.body.style.color = 'black';
+    }
   };
 
   const handleKeyPress = (event) => {
@@ -30,14 +44,6 @@ function Header() {
           <img src={logo} className="logo" alt="logo" />
         </Link>
       </li>
-      <div className="particles">
-        <div className="particle" />
-        <div className="particle" />
-        <div className="particle" />
-        <div className="particle" />
-        <div className="particle" />
-        <div className="particle" />
-      </div>
       <nav className="nav-bar">
         <div
           className={`mobile-menu-icon ${menuOpen ? 'open' : ''}`}
@@ -64,6 +70,15 @@ function Header() {
             Project
           </Link>
         </span>
+        <div className="button-container">
+          <button
+            className={`move-button ${isButtonOnRight ? 'right' : 'left'}`}
+            type="button"
+            onClick={toggleButtonPosition}
+          >
+            <span className="button-icon">→</span>
+          </button>
+        </div>
       </nav>
     </header>
   );

@@ -7,8 +7,7 @@
   margin: 39px auto;
   padding: 16px;
   flex-direction: column;
-  color: rgb(245, 245, 245);
-  background-color: black;
+  color: rgb(29, 29, 29);
   font-family: 'Lato', sans-serif;
 }
 
@@ -34,6 +33,11 @@
 .programing-card li {
   margin-top: 19px;
   list-style-type: none;
+}
+
+.programing-card li:hover {
+  color: rgb(248, 20, 20);
+  cursor: pointer;
 }
 
 @media only  screen and (min-width: 768px) {

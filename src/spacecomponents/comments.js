@@ -34,7 +34,7 @@ function CommentBox() {
         <input
           type="text"
           name="notes"
-          placeholder="Leave a comment..."
+          placeholder="Leave a comment below.."
           maxLength="500"
           value={newComment}
           onChange={handleCommentChange}
@@ -43,7 +43,6 @@ function CommentBox() {
           Comment
         </button>
       </div>
-      <h3 className="comment-h2">Comments</h3>
       <div className="comment-box">
         <ul>
           {comments.map((comment) => (

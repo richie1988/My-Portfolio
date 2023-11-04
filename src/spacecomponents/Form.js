@@ -52,7 +52,7 @@ export default function Form() {
             />
             <input
               className="email"
-              type="text"
+              type="email"
               name="email"
               placeholder="Email Address"
               maxLength="100"
@@ -64,8 +64,8 @@ export default function Form() {
             </button>
           </div>
           <span className="alert">{alertMessage}</span>
-          <Comment />
         </form>
+        <Comment />
       </div>
     </div>
   );
