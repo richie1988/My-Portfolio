@@ -1,18 +1,16 @@
 {
   "files": {
-    "main.css": "/My-Space/static/css/main.6b0b145b.css",
-    "main.js": "/My-Space/static/js/main.6e352de1.js",
+    "main.css": "/My-Space/static/css/main.25bca2e3.css",
+    "main.js": "/My-Space/static/js/main.f3e502e5.js",
     "static/js/787.6b56a02e.chunk.js": "/My-Space/static/js/787.6b56a02e.chunk.js",
-    "static/media/back2.jpg": "/My-Space/static/media/back2.fea032a9d5c80da27af0.jpg",
-    "static/media/myself.jpg": "/My-Space/static/media/myself.dcd4ac460fb992b8ac1d.jpg",
     "static/media/space-hub.png": "/My-Space/static/media/space-hub.3af1159d3e31e26bbb2b.png",
+    "static/media/profile (3).png": "/My-Space/static/media/profile (3).26b5473acafc7e7c5a64.png",
     "static/media/back1.jpg": "/My-Space/static/media/back1.45eccb3ed6023a72217f.jpg",
     "static/media/space image.png": "/My-Space/static/media/space image.7dd037cfefd5c2fd3cbb.png",
     "static/media/mario-info.png": "/My-Space/static/media/mario-info.86cfc31ce4c6a19aa2db.png",
     "static/media/microverse.png": "/My-Space/static/media/microverse.60ef5679be1308198996.png",
     "static/media/RIYI-Movies.png": "/My-Space/static/media/RIYI-Movies.ebd762f96d24acc67a62.png",
-    "static/media/back4.jpg": "/My-Space/static/media/back4.8a4eacf3b5a15e0fb2c4.jpg",
-    "static/media/RISHÜ -logos.jpeg": "/My-Space/static/media/RISHÜ -logos.f9b30bf4c27ebb7054e4.jpeg",
+    "static/media/My-Logo.png": "/My-Space/static/media/My-Logo.db06bd0d1bf4b0006814.png",
     "static/media/leaderbord.png": "/My-Space/static/media/leaderbord.2d10d54389abf2c7ef4e.png",
     "static/media/calculator.png": "/My-Space/static/media/calculator.e26212c02d9a8ab760d2.png",
     "static/media/github.svg": "/My-Space/static/media/github.0d16bbd8789480c9029f14a33015c3d2.svg",
@@ -20,12 +18,12 @@
     "index.html": "/My-Space/index.html",
     "static/media/twitter.svg": "/My-Space/static/media/twitter.021d91863d23284bfd754ab603a9720d.svg",
     "static/media/facebook.svg": "/My-Space/static/media/facebook.ae1500a7c5f300ebfb8a05225acaebd7.svg",
-    "main.6b0b145b.css.map": "/My-Space/static/css/main.6b0b145b.css.map",
-    "main.6e352de1.js.map": "/My-Space/static/js/main.6e352de1.js.map",
+    "main.25bca2e3.css.map": "/My-Space/static/css/main.25bca2e3.css.map",
+    "main.f3e502e5.js.map": "/My-Space/static/js/main.f3e502e5.js.map",
     "787.6b56a02e.chunk.js.map": "/My-Space/static/js/787.6b56a02e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b0b145b.css",
-    "static/js/main.6e352de1.js"
+    "static/css/main.25bca2e3.css",
+    "static/js/main.f3e502e5.js"
   ]
 }
