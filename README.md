@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-<img src="./RISHÜ -logos.jpeg" alt="spaceApp"  width="auto" height="auto"/>
+<img src="./My-Logo.png" alt="spaceApp"  width="50%" height="auto"/>
   <h3><b>My profile website</b></h3>
 </div>
 

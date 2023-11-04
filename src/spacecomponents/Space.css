@@ -8,6 +8,7 @@ body {
   width: 100%;
   height: auto;
 }
+
 .tech-image {
   width: 100%;
   height: auto;
@@ -16,6 +17,10 @@ body {
 .tech-image img {
   width: 100%;
   padding: 12px;
+}
+
+.first-Container {
+  background-color: rgb(78, 76, 76);
 }
 
 .my-stack li {
@@ -90,7 +95,6 @@ body {
   .first-Container {
     width: 100%;
     height: auto;
-    background-color: rgb(78, 76, 76);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
