@@ -12,8 +12,7 @@ function FirstCard() {
       <div className="tech-image"><img src={space} alt="tech" /></div>
       <section className="left-card">
         <h2>
-          These are languages I&apos;am comfortable with
-          I never stop learning
+          Most used languages and flameworks i never stop learning.
         </h2>
         <ul className="my-stack">
           <li>

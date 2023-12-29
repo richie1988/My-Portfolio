@@ -6,55 +6,56 @@ import asset2 from '../assets/leaderbord.png';
 import asset3 from '../assets/mario-info.png';
 import asset4 from '../assets/calculator.png';
 import asset5 from '../assets/RIYI-Movies.png';
+import asset6 from '../assets/employeesWeb.png';
 
 function Project() {
   const projects = [
     {
       title: 'project 1',
-      description: 'This project has been the most exciting project I have ever created. It takes me back to when I used to create simple projects full of fun.',
+      description: 'The Space traveler App is the project site by space-x that allows people to reserve the spaces and be able to see the information of the reservationa dn spaceships and dragons',
       image: asset1,
-      language: ['HTML', 'CSS', 'Javascript'],
-      live: 'https://github.com/richie1988',
-      github: 'https://github.com/richie1988',
+      language: ['HTML', 'CSS', 'React.js'],
+      live: 'https://richie1988.github.io/SpaceTravelers-Hub/',
+      github: 'https://github.com/richie1988/SpaceTravelers-Hub',
     },
     {
       title: 'project 2',
-      description: 'This project has been the most exciting project I have ever created. It takes me back to when I used to create simple projects full of fun.',
+      description: 'This is the leaderboard website it makes sports lovers to recorad the scores from each teams sides Its Mobile vision app and Desktop as well',
       image: asset2,
       language: ['HTML', 'CSS', 'React'],
-      live: 'https://github.com/richie1988',
-      github: 'https://github.com/richie1988',
+      live: 'https://richard-leaderboard-3833aa.netlify.app/',
+      github: 'https://github.com/richie1988/Leader-Board',
     },
     {
       title: 'project 3',
-      description: 'This project has been the most exciting project I have ever created. It takes me back to when I used to create simple projects full of fun.',
+      description: 'This the Website App for Super Mario you will get to know more about this Character in details the The release date and Game information',
       image: asset3,
-      language: ['HTML', 'CSS', 'React'],
-      live: 'https://github.com/richie1988',
-      github: 'https://github.com/richie1988',
+      language: ['HTML', 'CSS', 'React.js'],
+      live: 'https://github.com/richie1988/SuperMario',
+      github: 'https://richardmarioinfo.onrender.com/',
     },
     {
       title: 'project 4',
-      description: 'This project has been the most exciting project I have ever created. It takes me back to when I used to create simple projects full of fun.',
+      description: 'The Math App is the Mathematics Calculator you will be able to calculate all your Math operation.',
       image: asset4,
-      language: ['HTML', 'CSS', 'React'],
-      live: 'https://github.com/richie1988',
-      github: 'https://github.com/richie1988',
+      language: ['HTML', 'CSS', 'React.js'],
+      live: 'https://richard-math-app.onrender.com/',
+      github: 'https://github.com/richie1988/Math-App',
     },
     {
       title: 'project 5',
-      description: 'This project has been the most exciting project I have ever created. It takes me back to when I used to create simple projects full of fun.',
+      description: 'The movies App it will bring you into the world of movies list and series what are the trending movies or series its simple and usefull.',
       image: asset5,
-      language: ['HTML', 'CSS', 'React'],
-      live: 'https://github.com/richie1988',
+      language: ['HTML', 'CSS', 'React.js'],
+      live: 'https://github.com/richie1988/RiyaMovies',
       github: 'https://github.com/richie1988',
     },
     {
       title: 'project 6',
-      description: 'This project has been the most exciting project I have ever created. It takes me back to when I used to create simple projects full of fun.',
-      image: asset2,
-      language: ['HTML', 'CSS', 'React'],
-      live: 'https://github.com/richie1988',
+      description: 'This is the Employers App allowas the Employer to look for employees and Employee found there work collegue Essy to use and to navigate.',
+      image: asset6,
+      language: ['HTML', 'CSS', 'Ruby on rails'],
+      live: 'https://github.com/richie1988/Yees_App',
       github: 'https://github.com/richie1988',
     },
   ];
